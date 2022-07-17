@@ -1,4 +1,16 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/Users/mingram/portfolio-website/gatsby-portfolio/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/mingram/portfolio-website/gatsby-portfolio/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/mingram/portfolio-website/gatsby-portfolio/gatsby/node_modules/gatsby-plugin-load-script/gatsby-ssr'),
+      options: {"plugins":[],"src":"/myScript.js"},
+    },{
+      plugin: require('/Users/mingram/portfolio-website/gatsby-portfolio/gatsby/gatsby-ssr'),
+      options: {"plugins":[]},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
