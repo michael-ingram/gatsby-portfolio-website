@@ -98,6 +98,9 @@ const ProjectPageStyles = styled.div`
     padding: 10px;
     background-color: var(--onyx);
     border-radius: 20px;
+    @media(max-height: 600px){
+      margin-top: 10px;
+    }
   }
   .arrow{
     font-size: 4rem;

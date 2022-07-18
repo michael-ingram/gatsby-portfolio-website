@@ -21,6 +21,9 @@ const NavStyles = styled.nav`
     @media(max-width: 620px){
       font-size: 3rem;
     }
+    @media(max-width: 500px){
+      font-size: 1.5rem;
+  }
   }
   ul {
     margin: 0;
@@ -38,16 +41,6 @@ const NavStyles = styled.nav`
   }
   li {
     padding-left: 20px;
-    //@media(max-width: 600px){
-    //  grid-column: span 2;
-    //  &:last-child:nth-child(3n - 2) {
-    //    grid-column: -2;
-    //  }
-    //  &:nth-last-child(2):nth-child(3n + 1) {
-    //    grid-column-end: 4;
-    //  }
-    //}
-    
   }
   .active {
     color: var(--lightblue);
@@ -62,6 +55,9 @@ const NavStyles = styled.nav`
     }
     @media (max-width: 620px) {
       font-size: 3rem;
+    }
+    @media(max-height: 500px){
+      font-size: 1.5rem;
     }
     /* &[aria-current='page'] {
       color: var(--red);
