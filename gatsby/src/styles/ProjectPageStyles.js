@@ -11,6 +11,9 @@ const ProjectPageStyles = styled.div`
     @media(max-height: 600px){
       font-size: 3rem;
     }
+    @media(max-height: 450px){
+      font-size: 2rem;
+    }
   }
   .header-container{
     display: flex;
