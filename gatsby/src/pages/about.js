@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import AboutPageStyles from '../styles/AboutPageStyles';
 import NavbarContext from '../utils/NavbarContext';
+import SEO from '../components/SEO';
 
 
 export default function AboutPage() {
@@ -10,6 +11,7 @@ export default function AboutPage() {
   }
   return (
     <AboutPageStyles>
+      <SEO title="About" />
       <div className="content-outer-container">
         <div className="content-inner-container">
           <h1 className="content-title">About</h1>

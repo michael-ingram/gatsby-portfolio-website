@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import ContactPageStyles from '../styles/ContactPageStyles';
 import NavbarContext from '../utils/NavbarContext';
+import SEO from '../components/SEO';
 
 export default function ContactPage() {
   const { showNavbar, setShowNavbar } = useContext(NavbarContext);
@@ -9,6 +10,7 @@ export default function ContactPage() {
   } else {
     return (
       <ContactPageStyles>
+        <SEO title="Contacts" />
         <div className="content-outer-container">
           <div className="content-inner-container">
             <h1 className="content-title">Contact</h1>

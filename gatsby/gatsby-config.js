@@ -11,15 +11,15 @@ export default {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    // {
-    //   resolve: 'gatsby-source-sanity',
-    //   options: {
-    //     projectId: '3cataqo3',
-    //     dataset: 'production',
-    //     watchMode: true,
-    //     token: process.env.SANITY_TOKEN,
-    //   },
-    // },
+    {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: 'h22n7ef9',
+        dataset: 'production',
+        watchMode: true,
+        token: process.env.SANITY_TOKEN,
+      },
+    },
     {
       resolve: 'gatsby-plugin-load-script',
       options: {

@@ -98,6 +98,10 @@ const GlobalStyles = createGlobalStyle`
       height: 50vh;
       font-size: 1.5rem;
     }
+    @media(max-height: 500px){
+      height: 30vh;
+      font-size: 1.5rem;
+    }
   }
   .content-p {
     margin: 0;

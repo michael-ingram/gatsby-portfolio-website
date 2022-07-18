@@ -117,7 +117,6 @@ function init() {
     let color = '#f9f7f7';
 
     particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
-    console.log('bg running');
   }
 }
 

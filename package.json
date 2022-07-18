@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fontsource/ibarra-real-nova": "^4.5.8",
+    "@fontsource/indie-flower": "^4.5.8",
+    "@fontsource/the-nautigal": "^4.5.8",
+    "@react-icons/all-files": "^4.1.0"
+  }
+}

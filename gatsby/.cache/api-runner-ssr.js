@@ -5,6 +5,9 @@ var plugins = [{
       plugin: require('/Users/mingram/portfolio-website/gatsby-portfolio/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/mingram/portfolio-website/gatsby-portfolio/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"h22n7ef9","dataset":"production","watchMode":true,"token":"skMY75KGBGUlFXROP48sJI2qve5SV1LGxhW34Bxlx71vo2cdiSWF1fY2i4LSAXlC8z0b54QaAKWpIg9GnvFX8GW27DMre3wvIwQkYxzwEMbOMzPflLg0mZl0sEyh1EgoSv2DvtgF3QouYk7Uzi2OdKJdCMkoagfkbJuyHTBdpIP1BPFqX7kn"},
+    },{
       plugin: require('/Users/mingram/portfolio-website/gatsby-portfolio/gatsby/node_modules/gatsby-plugin-load-script/gatsby-ssr'),
       options: {"plugins":[],"src":"/myScript.js"},
     },{
