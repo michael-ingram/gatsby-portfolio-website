@@ -27,11 +27,11 @@ export default function ProjectsPage({ data }) {
       <div className='header-container'>
         {projIndex !== 0 && <FaArrowAltCircleLeft className='mobile-arrow mobile-arrow-left' onClick={decreaseIndex} />}
         {projIndex === 0 && <FaArrowAltCircleLeft className='mobile-arrow hidden-mobile mobile-arrow-left' />}
-        <div className="outer-container">
-          <div className="inner-container">
+        {/* <div className="outer-container"> */}
+        {/*   <div className="inner-container"> */}
             <h1 className='header'>Projects</h1>
-          </div>
-        </div>
+        {/*   </div> */}
+        {/* </div> */}
         {projIndex !== numSites - 1 && (
           <FaArrowAltCircleRight className='mobile-arrow mobile-arrow-right'onClick={increaseIndex} />
         )}

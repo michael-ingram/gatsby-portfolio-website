@@ -8,7 +8,9 @@ const ProjectPageStyles = styled.div`
     @media(max-width: 400px){
       font-size: 3rem;
     }
-    
+    @media(max-height: 600px){
+      font-size: 3rem;
+    }
   }
   .header-container{
     display: flex;
@@ -44,6 +46,7 @@ const ProjectPageStyles = styled.div`
     height: 300px;
     width: 300px;
     padding: 10px;
+    margin: 0 auto;
     @media(max-width: 800px){
       height: 200px;
       width: 200px;
@@ -53,8 +56,8 @@ const ProjectPageStyles = styled.div`
       width: 150px;
     }
     @media(max-height: 600px){
-      height: 200px;
-      width: 200px;
+      height: 150px;
+      width: 150px;
     }
     @media(max-height: 300px){
       height: 150px;
@@ -78,7 +81,7 @@ const ProjectPageStyles = styled.div`
     }
     @media(max-height: 600px){
       font-size: 1rem;
-      max-width: 200px;
+      max-width: 300px;
     }
     @media(max-height: 300px){
       font-size: 0.75rem;
@@ -98,6 +101,7 @@ const ProjectPageStyles = styled.div`
     padding: 10px;
     background-color: var(--onyx);
     border-radius: 20px;
+    margin-top: 10px;
     @media(max-height: 600px){
       margin-top: 10px;
     }
@@ -117,16 +121,15 @@ const ProjectPageStyles = styled.div`
   }
   .mobile-arrow{
     display: none;
-    margin-top: 50px;
+    margin-top: 10px;
     @media(max-width: 630px){
       display: block;
     }
   }
   .mobile-arrow-left{
-    margin-left: 20px;
+    
   }
   .mobile-arrow-right{
-    margin-right: 20px;
   }
   .hidden-mobile{
     color: transparent;

@@ -7,6 +7,9 @@ const NavIconStyles = styled.div`
     @media(max-width: 800px){
       font-size: 2rem;
     }
+    @media(max-height: 600px){
+      padding: 20px 0 5px 40px;
+    }
   }
 `;
 
