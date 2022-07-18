@@ -10,7 +10,6 @@ export default function ProjectsPage({ data }) {
   const websites = data.websites.nodes;
   const numSites = websites.length;
   const [projIndex, setProjIndex] = useState(1);
-  console.log('Project Index: ', projIndex);
 
   const decreaseIndex = () => {
     if (projIndex !== 0) {
